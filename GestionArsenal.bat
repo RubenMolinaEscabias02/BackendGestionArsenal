@@ -1,1 +1,1 @@
-java -jar untitled1.jar
+java -jar armas.jar
