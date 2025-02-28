@@ -97,10 +97,5 @@ CORS está habilitado y puede configurarse a través de la variable de entorno `
   - **SPRING_DB_URL**: La URL del endpoint de DynamoDB. Esta URL debe apuntar a tu instancia de DynamoDB (por ejemplo, si usas DynamoDB Local o el servicio en la nube de AWS).
   - **SPRING_DB_ACCESS_KEY_ID**: El Access Key ID de tu cuenta de AWS o el proporcionado por tu instancia de DynamoDB Local.
   - **SPRING_DB_SECRET_ACCESS_KEY**: El Secret Access Key de tu cuenta de AWS o el proporcionado por tu instancia de DynamoDB Local.
-3. **Construir la aplicación**:
-   ```bash
-   mvn clean install
-4. **Ejecutar la aplicación**:
-   ```bash
-   mvn spring-boot:run
-5. **Acceder a la aplicación en** http://localhost:8080, en caso de no acceder de forma local cambia localhost por la ip de tu servidor.
+3. **Ejecutar el archivo GestionArsenal.bat**
+4. **Acceder a la aplicación en** http://localhost:8080, en caso de no acceder de forma local cambia localhost por la ip de tu servidor.
