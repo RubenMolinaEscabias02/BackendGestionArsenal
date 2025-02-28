@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class Arma implements Comparable<Arma> {
     private int numSerie;
     private String nombre;
@@ -19,6 +18,18 @@ public class Arma implements Comparable<Arma> {
     private int distanciaEfectiva;
     private boolean obsoleto;
     private String urlFoto;
+
+    public Arma(int numSerie, String nombre, String tipo, String calibre, ArrayList<String> modosDeTiro, int anioSalida, int distanciaEfectiva, boolean obsoleto, String urlFoto) {
+        this.numSerie = numSerie;
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.calibre = calibre;
+        this.modosDeTiro = modosDeTiro;
+        this.anioSalida = anioSalida;
+        this.distanciaEfectiva = distanciaEfectiva;
+        this.obsoleto = obsoleto;
+        this.urlFoto = urlFoto;
+    }
 
     public int getNumSerie() {
         return numSerie;
